@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hello, Welcome to INDIA" }');
+    res.send('{ "response": "Hello, Welcome to BHARATH" }');
 });
 
 app.get('/will', function (req, res) {
